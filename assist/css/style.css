@@ -1,0 +1,741 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header section start here */
+/* contact information start here */
+.contact_info {
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_info p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12px;
+    display: inline;
+}
+
+.contact_info p a i {
+    color: white;
+}
+
+/* contact information end here */
+
+/* Navigation bar start here  */
+.navigation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #2F4371;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    height: 50px;
+}
+
+.navigation ul li {
+    padding: 10px 20px;
+    color: white;
+}
+
+.navigation ul li a i {
+    color: white;
+    font-size: 14px;
+}
+
+/* Navigation bar end here */
+.contaner {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    font-family: "roboto", sans-serif;
+}
+
+/* sub header start here */
+.sub_header {
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+/* LOGO start */
+.logoicon {
+    width: 230px;
+    height: 50px;
+}
+
+/* LOGO end */
+/* menu icon start */
+.menu_icn {
+    height: 50px;
+    width: 40px;
+    margin-left: 30px;
+}
+
+/* menu icon end */
+.sub_header input {
+    border: none;
+    background-color: #F0F2F5;
+    width: 460px;
+    height: 30px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 15px;
+}
+
+.search-icon ul li {
+    list-style: none;
+    background-color: #2BA6DE;
+}
+.search-icon ul li a img{
+    height: 45px;
+    width: 45px;
+}
+
+
+/* login icon */
+.login {
+    display: flex;
+    align-items: center;
+}
+.login a {
+    text-decoration: none;
+}
+
+.login a img {
+    margin-left: 20px;
+}
+
+.login a p {
+    display: inline;
+    margin-left: 9px;
+    padding-top: 5px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+
+}
+
+/* Signup button start */
+.sigup_botton {}
+
+.sigup button {
+    padding: 15px 30px;
+    color: white;
+    background-color: #27A6DE;
+    margin-left: 20px;
+    border: 1px solid #27A6DE;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Signup button end */
+/* sub header end here */
+/* header section end here */
+
+
+/* Banner part start */
+.banner {
+    width: 100%;
+    height: 610px;
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_overlay {
+    background-color: rgba(0, 0, 0, 0.568);
+    font-family: "roboto", sans-serif;
+}
+
+.banner_con {
+    padding: 100px 0px 200px 0px;
+}
+
+.banner_con p {
+    font-size: 53px;
+    font-weight: 400;
+    font-family: "roboto", sans-serif;
+    color: yellow;
+}
+
+.banner_con span {
+    font-weight: 900;
+}
+
+.banner_con h4 {
+    font-size: 22px;
+    color: white;
+}
+
+.banner_con button {
+    padding: 10px 40px;
+    border: 1px solid yellow;
+    border-radius: 30px;
+    background-color: yellow;
+}
+
+.banner_con button a {
+    font-size: 28px;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    color: black;
+
+}
+
+/* Banner part end */
+
+/* about part start */
+.aboutlist {
+    width: 80%;
+    height: 180px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 10px rgba(49, 48, 48, 0.575);
+    background-color: white;
+    display: flex;
+    position: absolute;
+    bottom: -230px;
+}
+
+/* first about here */
+.first_con {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid gray;
+}
+
+.first_con img {
+    height: 60px;
+    width: 55px;
+    margin: 25px 40%;
+}
+
+.first_con p {
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 38%;
+    margin-bottom: 10px;
+    color: #242424;
+}
+
+.first_con span {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Open sans", sans-serif;
+    margin: 15px 0px 15px 60px;
+    text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.575);
+    color: #364141;
+}
+
+/* secound start here */
+.sec_con {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid gray;
+}
+
+.sec_con img {
+    height: 60px;
+    width: 55px;
+    margin: 25px 40%;
+}
+
+.sec_con p {
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 36%;
+    margin-bottom: 10px;
+    color: #242424;
+}
+
+.sec_con span {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Open sans", sans-serif;
+    margin: 15px 0px 15px 40px;
+    text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.575);
+    color: #364141;
+}
+
+/* third start here */
+.third_con {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid gray;
+}
+
+.third_con img {
+    height: 60px;
+    width: 65px;
+    margin: 25px 40%;
+}
+
+.third_con p {
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 33%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.third_con span {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Open sans", sans-serif;
+    margin: 15px 0px 15px 58px;
+    text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.575);
+    color: #364141;
+}
+
+/* forth start here */
+.forth_con {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0);
+}
+
+.forth_con img {
+    height: 70px;
+    width: 55px;
+    margin: 25px 40%;
+}
+
+.forth_con p {
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 105px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.forth_con span {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Open sans", sans-serif;
+    margin: 15px 0px 15px 85px;
+    text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.575);
+    color: #364141;
+}
+
+/* about part end */
+
+/* our course start */
+.our_course {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.our_course span {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_course p {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-weight: 300;
+    font-family: "Open sans", sans-serif;
+}
+
+/* our course end */
+.box_course {
+    font-family: "roboto", sans-serif;
+}
+
+/* box contaner start*/
+.box-contaner {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    border: 1px solid gray;
+}
+
+.secbox_con {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+/* first box here */
+.first_box {
+    width: 300px;
+    height: 280px;
+}
+
+.first_box img {
+    margin: 30px 25%;
+}
+
+.first_box p {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* sec box here */
+.sec_box {
+    width: 300px;
+    height: 280px;
+    border-left: 1px solid gray;
+}
+
+.sec_box img {
+    margin: 11px 25%;
+}
+
+.sec_box p {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* third box here */
+.third_box {
+    width: 300px;
+    height: 280px;
+    border-left: 1px solid gray;
+}
+
+.third_box img {
+    margin: 31px 25%;
+}
+
+.third_box p {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* forth box here */
+.forth_box {
+    width: 300px;
+    height: 280px;
+    border-left: 1px solid gray;
+}
+
+.forth_box img {
+    margin: 20px 25%;
+}
+
+.forth_box p {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* five box here */
+.five_box {
+    width: 300px;
+    height: 280px;
+}
+
+.five_box img {
+    margin: 30px 25%;
+}
+
+.five_box p {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* six box here */
+.six_box {
+    width: 300px;
+    height: 280px;
+    border-left: 1px solid gray;
+}
+
+.six_box img {
+    margin: 43px 25%;
+}
+
+.six_box p {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* seven box here */
+.seven_box {
+    width: 300px;
+    height: 280px;
+    border-left: 1px solid gray;
+}
+
+.seven_box img {
+    margin: 36px 25%;
+}
+
+.seven_box p {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* eight box here */
+.eight_box {
+    width: 300px;
+    height: 280px;
+    border-left: 1px solid gray;
+}
+
+.eight_box img {
+    margin: 34px 25%;
+}
+
+.eight_box p {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* box contaner end*/
+
+/* Why us con start */
+.aboutwhy_us {
+    height: 340px;
+    width: 100%;
+    background-color: #0D5DD1;
+    display: flex;
+}
+
+.whyus_con {
+    width: 70%;
+    height: 100%;
+}
+
+.whyus_con h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 30px 0px 20px 50px;
+}
+
+.whyus_con p {
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 5px 50px;
+    line-height: 30px;
+}
+
+.whyus_con button {
+    margin: 10px 50px;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 50px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #0D5DD1;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Why us con end */
+
+/* Whyus subcon start */
+.whyus_subcon img {
+    width: 100%;
+    padding-left: 10px;
+    height: 100%;
+}
+
+/* Whyus subcon end */
+.about_start {
+    margin-top: 150px;
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* About content start */
+.about_con {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.about_video {
+    width: 69%;
+    height: 460;
+    margin-right: 10px;
+    justify-content: flex-start;
+}
+
+.about_text {
+    width: 28%;
+    height: 460;
+    margin-left: 10px;
+    justify-content: flex-end;
+}
+
+.about_text p a i {
+    color: white;
+    margin-left: 15px;
+}
+
+.about_text p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    background-color: #2158C0;
+    border: 1px solid #2159c000;
+    padding: 30px 70px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+/* About content end */
+
+/* FAq content start */
+.faq_con {
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+
+.faq_img {
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FAq text */
+.faq_text {
+    height: 600px;
+    width: 60%;
+}
+
+.faq_text h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.faq_text h1 span {
+    font-weight: 600;
+}
+
+.faq_text p {
+    font-size: 20px;
+}
+
+/* input text start */
+.faq_text input {
+    height: 41px;
+    width: 475px;
+    border: 1px solid lightskyblue;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #a6cde644;
+}
+
+.faq_text select {
+    height: 55px;
+    width: 500px;
+    border: 1px solid lightskyblue;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #a6cde644;
+    color: #757575;
+}
+.faq_text select option {
+    color: #757575;
+}
+
+/* input text end */
+/* FAq content end */
+
+/* footer section start */
+.footer_sec{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+}
+.icon_foot{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.icon_foot ul{
+    display: flex;
+}
+.icon_foot ul li {
+    list-style: none;
+    margin: 15px 15px;
+    margin-top: 40px;
+}
+.icon_foot ul li a{
+    color: #5D963F;
+}
+.icon_foot ul li a:hover{
+    font-size: 24px;
+}
+/* footer navigatiion */
+.foot_nav{
+    display: flex;
+    justify-content: center;
+}
+.foot_nav ul{
+    display: flex;
+
+}
+.foot_nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "lato", sans-serif;
+    padding: 8px 12px;
+    color: white;
+}
+.copyright{
+    background-color: #314924;
+    width: 100%;
+    height: 40px;
+}
+.copyright h3{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 40px;
+    color: white;
+    font-family: "lato",sans-serif;
+    font-weight: 300;
+}
+/* footer section end */
